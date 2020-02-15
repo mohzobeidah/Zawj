@@ -2,3 +2,5 @@ git:
 
 -  git init
 - git status 
+git remote add origin https://github.com/mohzobeidah/Zawj.git
+--push to
