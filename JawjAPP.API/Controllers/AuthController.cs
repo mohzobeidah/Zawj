@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace JawjAPP.API.Controllers
 {
-    [Authorize]
+    [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController]
 

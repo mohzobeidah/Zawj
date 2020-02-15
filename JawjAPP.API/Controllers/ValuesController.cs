@@ -4,11 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using JawjAPP.API.Data;
 using JawjAPP.API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace JawjAPP.API.Controllers
-{
+{[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
